@@ -26,7 +26,6 @@ const Contatos = () => {
             email: author,
             message: content,
         }
-
         fetch(url, {
             method: "POST",
             headers: {
